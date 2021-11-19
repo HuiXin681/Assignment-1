@@ -1,0 +1,123 @@
+
+
+@media (min-width: 1000px){
+    body{
+        background-color: blanchedalmond;
+        background-image: url("Images/mamamoobg2.jpg");
+        background-repeat: no-repeat;
+        background-size:cover;
+    }
+
+    #index-navigation {
+        align-items: center;
+        display:flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        justify-content: space-around;
+        height: 100px;
+        background-color: #F7EDE5;
+        overflow:hidden;
+        margin-top: 0%;
+        opacity: 0.75;
+    }
+    #bandname{
+        position:fixed;
+        font-family: Georgia, serif;
+        font-size: 700%;
+        text-align: center;
+        color:#F7EDE5;
+        padding: 20px;
+        border: 5px solid #F7EDE5;
+        margin-top: 15%;
+        margin-left: 30%;
+    }    
+    .indexnavElement, a:link{
+        font-size: 10%;
+        border: none;
+        background-color: #F5CBAA;
+        color:#4a4947;
+        font-family: 'Montagu Slab', serif;  
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        padding: 14px 25px;
+        font-size: 20px;
+        width:100px;
+        height:50px;
+        border-radius: 12px;
+        line-height: 50px;
+    } 
+
+    #logo{
+        padding-top: 10px;
+        max-width: 400px;
+        list-style-type: none;
+    }
+    
+    html{
+        overflow:hidden;
+        align-items: center;
+    }
+
+
+}
+
+@media (max-width: 1000px){
+
+    body{   
+        background-color: blanchedalmond;
+        background-image: url("Images/mamamoo_waw_concept_all_group_3.jpg");
+        background-size:cover;
+        background-repeat: no-repeat;
+        }
+    
+    #bandname{
+         position:fixed;
+         font-family: Georgia, serif;
+         font-size: 300%;
+         text-align: center;
+         color:#F7EDE5;
+         padding: 20px;
+         border: 5px solid #F7EDE5;
+         margin-top: 10%;
+         margin-left: 30%;
+         margin-right:30%;
+     }
+
+     #logo{
+        padding-top: 10px;
+        max-width: 250px;
+        
+    }
+
+    #indexnavigation{
+        height:100%;
+        width:0;
+        position:fixed;
+        z-index: 1;
+        top:0;
+        left: 0;
+        background-color: #F7EDE5;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top:60px;
+        text-align: center;
+    }
+
+    #indexnavElement{
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #F5CBAA;
+        display:block;
+        transition: 0.3s;
+    }
+
+    #index.indexnavElement{
+        position:absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+    }
+}
