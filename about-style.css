@@ -18,7 +18,7 @@ body{
     color:black
 }
 
-.navElement:link{
+.navElement:link , .navElement:visited{
 
     font-size: 10%;
     border: none;
@@ -115,7 +115,7 @@ header{
         background-color: #F5CBAA;
     }
     
-    .navElement:link{
+    .navElement:link, .navElement:visited{
         font-size: medium;
         border: none;
         color:#4a4947;
@@ -170,7 +170,7 @@ header{
         margin-top: 0;
     }
 
-    .navElement:link{
+    .navElement:link, .navElement:visited{
         font-size: medium;
         color:#4a4947;
         font-family: 'Montagu Slab', serif;  
