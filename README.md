@@ -20,9 +20,12 @@ Existing Feeatures:
 
 ## Technologies used
 - HTML
-```
-- Used to code out all the basic displays and text
-```
+  - Used to code out all the basic displays and text as well as linking all the pages tofether to form one cohesive website
+- Css
+  - Used to make the website more aesthetic and to alter the look of the website
+- Javascript 
+  - Used to validate the subscription form submission to ensure that users would fill in the necessary information 
+
 ## Testing
 
 ## Credits 
@@ -32,3 +35,4 @@ Media
 
 Acknowledgements
 - The discography page had recieved inspiration from [Eve's Official Website](https://eveofficial.com/discography/)
+- The subscription page had been inspired from [Billie Eilish's Official Website](https://www.billieeilish.com/)
