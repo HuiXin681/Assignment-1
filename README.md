@@ -19,11 +19,11 @@ Existing Feeatures:
  
 
 ## Technologies used
-- HTML
+- [HTML](https://html.com/)
   - Used to code out all the basic displays and text as well as linking all the pages tofether to form one cohesive website
 - Css
   - Used to make the website more aesthetic and to alter the look of the website
-- Javascript 
+- [Javascript](https://www.javascript.com/)
   - Used to validate the subscription form submission to ensure that users would fill in the necessary information 
 
 ## Testing
