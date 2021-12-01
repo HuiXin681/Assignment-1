@@ -8,16 +8,21 @@ My main goal of this website is to allow fans to have a space where important in
 
 ## Features 
 Existing Feeatures:
+
 1) There is a would be a main landing page which displays a group photo of the members as well as buttons that link to all the other pages
+2) The about page which would feature information of the group as a whole as well as infomation about each of the members accompanied by an indivudual picture
+3) The Discography page, showing off the different albums and EPS that they have released over the years
+4) The indivdual album pages that would showcase the title track of the album as well as the various b-sides in the album.
+5) The subscription/ contact page that would include a form that asks for the user's email and other infomation for them to recive updates on new releases/ events 
 
  Features to be implemented:
- 1) The about page which would feature information of the group as a whole as well as infomation about each of the members accompanied by an indivudual picture
- 2) The Discography page, showing off the different albums and EPS that they have released over the years
- 3) The indivdual album pages that would showcase the title track of the album as well as the various b-sides 
- 4) The subscription/ contact page that would include a form that asks for the user's email and other infomation for them to recive updates on new releases/ events 
+ 
 
 ## Technologies used
-
+- HTML
+```
+- Used to code out all the basic displays and text
+```
 ## Testing
 
 ## Credits 
