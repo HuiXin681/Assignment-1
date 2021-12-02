@@ -1,51 +1,19 @@
-#navigation {
-    align-items: center;
-    display:flex;
-    flex-wrap: nowrap;
-    flex-direction: row;
-    justify-content: space-around;
-    height: 100px;
-    background-color: #F7EDE5;
-    overflow:hidden;
-    margin-top: 0;
-}
 
 body{
     background: #faefd9;
     
 }
-.outsideLinks:link{
+
+/* Styling for links in the description */
+.outsideLinks:link, .outsideLinks:visited{
     color:black
 }
 
-.navElement:link , .navElement:visited{
-
-    font-size: 10%;
-    border: none;
-    background-color: #F5CBAA;
-    color:#4a4947;
-    font-family: 'Montagu Slab', serif;  
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    padding: 14px 25px;
-    font-size: 20px;
-    width:100px;
-    height:50px;
-    border-radius: 12px;
-    line-height: 50px;
-    
-} 
-
-#logo{
-    padding-top: 10px;
-    max-width: 400px;
-    list-style-type: none;
-}
 html{
     overflow-x:hidden;
 }
 
+/* Styling for the group about section */
 .top-container{
     display: flex;
     flex-direction: column;
@@ -59,6 +27,7 @@ header{
     text-decoration: underline;
 }
 
+/* the styling for the description paragraph */
 .groupAbout{
     max-width: 1300px;
     background-color: #ebddc3;
@@ -67,6 +36,7 @@ header{
     font-size: 120%;
 }
 
+/* Styling for the invidual abouts */
 .container{
     display: flex;
     width: 100%;
@@ -108,34 +78,7 @@ header{
 }
 
 @media (max-width:1100px)
-{
-    #navigation{
-        margin:0;
-        padding:0;
-        background-color: #F5CBAA;
-    }
-    
-    .navElement:link, .navElement:visited{
-        font-size: medium;
-        border: none;
-        color:#4a4947;
-        font-family: 'Montagu Slab', serif;  
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        padding: 14px 25px;
-        font-size: 20px;
-        width:100px;
-        height:50px;
-        border-radius: 12px;
-        line-height: 50px;
-        
-    } 
-
-    #logo {
-        display:none;
-    }
-    
+{ 
     .container{
         display: flex;
         width: 100%;
@@ -157,28 +100,6 @@ header{
 }
 
 @media (max-width:576px){
-
-    #navigation {
-        align-items: center;
-        display:flex;
-        flex-wrap: nowrap;
-        flex-direction: row;
-        justify-content: space;
-        height: 65px;
-        background-color: #F7EDE5;
-        overflow:hidden;
-        margin-top: 0;
-    }
-
-    .navElement:link, .navElement:visited{
-        font-size: medium;
-        color:#4a4947;
-        font-family: 'Montagu Slab', serif;  
-        text-align: center;
-        text-decoration: none;
-        line-height: 50px;
-        
-    } 
 
     header{
         font-size: 100%;

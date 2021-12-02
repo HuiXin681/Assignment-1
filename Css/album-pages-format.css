@@ -1,0 +1,66 @@
+/* ensures that everything is aligned in the center */
+.album-container{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Style for the album names */
+header{
+    color: #39403b;
+    padding: 14px;
+    font-size: 30px;
+}
+
+/* Line divider */
+hr.solid{
+    border-top: 2px solid white;
+    width:30%
+}
+
+/* Back button style */
+nav a:link{
+    color: #39403b;
+    font-size: 15px;
+    border: 2px solid #39403b;
+    background-color: blanchedalmond;
+    padding: 3px 
+}
+
+/* Styling the description of the album */
+.description{
+    font-size: larger;
+    word-wrap: break-word;
+    width:60%;
+    text-align: center;
+    padding:10px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid blanchedalmond;
+    color:blanchedalmond;
+}
+
+.title-track{
+    color:white;
+    text-align: center;
+    font-size: 22px;
+}
+
+
+.track-list{
+    text-align: center;
+    margin-left: auto;
+    font-size: large;
+    color:white;
+
+}
+
+/* repositions header */
+#track-list-header{
+    padding-top: 9px;
+}
+
+img{
+    width:400px ;
+    padding: 5px;
+}

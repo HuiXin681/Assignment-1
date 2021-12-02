@@ -1,0 +1,64 @@
+
+body{
+    background-color: blanchedalmond;
+    background-image: url("../Images/mamamoobg2.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+}
+
+html{
+    overflow-x:hidden;
+}
+
+.container{
+    display:flex;
+    flex-direction: column;
+    margin-top: 12%;
+    margin-left: 34%;
+    max-width: 500px;
+    align-items: center;
+    background-color:rgb(255, 244, 235, 0.8); 
+    
+    
+
+}
+
+.header{
+    text-decoration: underline;
+    font-size: large;
+    margin-bottom:2%;
+}
+
+.options{
+    margin-left: 30%;
+    margin-bottom: 5%;
+}
+
+@media (max-width:1100px)
+{
+    body{   
+        background-color: blanchedalmond;
+        background-image: url("../Images/mamamoo_waw_concept_all_group_3.jpg");
+        background-size:cover;
+        background-repeat: no-repeat;
+    }
+    
+    .container{
+        margin-left: 27%;
+    }
+}
+
+@media (max-width:576px){
+    .container{
+        margin-top: 20%;
+        margin-left: 5%;
+    }
+    .header{
+        font-size:larger;
+    }
+
+    .form {
+        font-size: large;
+    }
+}

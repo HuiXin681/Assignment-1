@@ -1,0 +1,104 @@
+/* Index page stylesheet */
+
+/* When screen width more than 1000px */
+@media (min-width: 1000px){
+    
+    /* setting the background image */
+    body{
+        background-color: blanchedalmond;
+        background-image: url("../Images/mamamoobg2.jpg");
+        background-repeat: no-repeat;
+        background-size:cover;
+    }  
+
+    /* Styles the bandname to the middle of the screen */
+    #bandname{
+        position:fixed;
+        font-family: Georgia, serif;
+        font-size: 700%;
+        text-align: center;
+        color:#F7EDE5;
+        padding: 20px;
+        border: 5px solid #F7EDE5;
+        margin-top: 15%;
+        margin-left: 32%;
+    }    
+    
+}
+
+/* When screen width is less than 1000px */
+@media (max-width: 1000px){
+    /* Changes background image to a longer one */
+    body{   
+        background-color: blanchedalmond;
+        background-image: url("../Images/mamamoo_waw_concept_all_group_3.jpg");
+        background-size:cover;
+        background-repeat: no-repeat;
+    }
+    
+    #bandname{
+         position:fixed;
+         font-family: Georgia, serif;
+         font-size: 300%;
+         text-align: center;
+         color:#F7EDE5;
+         padding: 20px;
+         border: 5px solid #F7EDE5;
+         margin-top: 10%;
+         margin-left: 30%;
+         margin-right:30%;
+        
+     }
+    
+     /* Ensures that logo is no longer displayed */
+    #logo{
+        display:none;
+        
+    }
+    
+    #navigation{
+        align-items: center;
+        display:inline;
+        max-width: unset;
+        background-color: unset;
+    }
+
+
+    .navElement:link, .navElement:visited{
+        border: 2px solid White;
+        color: white;
+        padding: 14px 25px;
+        text-align: center;
+        display: block;
+        font-size: medium;
+        text-decoration: none;
+        max-width: 80px;
+        margin-top: 50px;
+        margin-left:auto;
+        margin-right:auto;
+    }
+
+    .navElement:hover {
+        background-color: white;
+        color:grey;
+        transition: 0.5s;
+    }
+    
+}
+
+@media (max-width:576px){
+
+    #bandname{
+        font-family: Georgia, serif;
+        font-size: 170%;
+        text-align: center;
+        color:#F7EDE5;
+        padding: 20px;
+        border: 4px solid #F7EDE5;
+        margin-top: 10%;
+        margin-left: 32%;  
+    }
+
+}
+
+
