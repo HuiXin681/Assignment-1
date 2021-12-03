@@ -27,6 +27,10 @@ function submit() {
         window.alert("Submission complete");
        
     } 
+    else if (checked != true && nameGiven != true && emailGiven != true)
+    {
+        window.alert("Please enter the necessary information")
+    }
 
     else if (nameGiven != true)
     {
