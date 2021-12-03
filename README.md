@@ -29,7 +29,7 @@ Features to be implemented:
   - Used to validate the subscription form submission to ensure that users would fill in the necessary information 
 
 ## Testing
-Contact form / Subsribe page:
+Subsribe page:
   - Go to the "Subscribe" page
   - Try to click submit when nothing has been filled out and a window alert would inform user to enter the necessary information.
   - Try to click on submit when only the name has been filled in a window alert would promt for the user to submit an email.
