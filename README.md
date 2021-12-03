@@ -30,12 +30,12 @@ Features to be implemented:
 
 ## Testing
  1.Contact form / Subsribe page:
-  i. Go to the "Subscribe" page
- ii. Try to click submit when nothing has been filled out and a window alert would inform user to enter the necessary information.
-iii. Try to click on submit when only the name has been filled in a window alert would promt for the user to submit an email.
- iv. Try to click submit when either only the email has been filled out and at least one checkbox has been selected and the user would be promted to enter a name.
-  v. Try to click submit when no checkbox has been selected while name and email have been filled out and there would be a window alert for at least one checkbox to be selected.
- vi. Try to click on submit when all information has been given and a windoe alert would verify that the submission for subscription is complete.
+  - Go to the "Subscribe" page
+  - Try to click submit when nothing has been filled out and a window alert would inform user to enter the necessary information.
+  - Try to click on submit when only the name has been filled in a window alert would promt for the user to submit an email.
+  - Try to click submit when either only the email has been filled out and at least one checkbox has been selected and the user would be promted to enter a name.
+  - Try to click submit when no checkbox has been selected while name and email have been filled out and there would be a window alert for at least one checkbox to be selected.
+  - Try to click on submit when all information has been given and a windoe alert would verify that the submission for subscription is complete.
  
 ## Credits 
 Media
